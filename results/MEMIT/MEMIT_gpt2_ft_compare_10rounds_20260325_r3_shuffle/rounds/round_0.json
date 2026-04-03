@@ -1,0 +1,14 @@
+{
+  "model": "gpt2",
+  "device": "cuda:0",
+  "round": 0,
+  "edited_items": 0,
+  "crows": {
+    "valid_samples": 300,
+    "prefer_stereo_rate": 0.6066666666666667
+  },
+  "bbq": {
+    "valid_samples": 300,
+    "accuracy_proxy": 0.23666666666666666
+  }
+}

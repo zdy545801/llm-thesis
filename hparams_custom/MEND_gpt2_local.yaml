@@ -1,0 +1,69 @@
+# Model
+archive: "/content/drive/MyDrive/REPLACE_WITH_YOUR_MEND_CHECKPOINT.pt"
+alg_name: "MEND"
+device: 0
+model_name: "gpt2"
+
+model_class: GPT2LMHeadModel
+tokenizer_class: GPT2Tokenizer
+tokenizer_name: "gpt2"
+model_parallel: false
+inner_params:
+  - transformer.h.9.mlp.c_proj.weight
+  - transformer.h.9.mlp.c_fc.weight
+  - transformer.h.10.mlp.c_proj.weight
+  - transformer.h.10.mlp.c_fc.weight
+  - transformer.h.11.mlp.c_proj.weight
+  - transformer.h.11.mlp.c_fc.weight
+
+# Method
+alg: MEND
+lr: 1e-6
+edit_lr: 1e-4
+lr_lr: 1e-4
+lr_scale: 1.0
+seed: 42
+cedit: 0.1
+cloc: 1.0
+cbase: 1.0
+dropout: 0.0
+train_base: false
+no_grad_layers: null
+one_sided: false
+n_hidden: 1
+hidden_dim: null
+init: id
+norm: true
+combine: true
+x_only: false
+delta_only: false
+act: relu
+rank: 768
+mlp_class: IDMLP
+shared: true
+
+# Train/Eval
+batch_size: 1
+model_save_pt: 5000
+silent: false
+max_iters: 100000
+log_interval: 1000
+eval_log_interval: 1000
+final_eval: true
+val_interval: 1000
+early_stop_patience: 20000
+early_stop_key: "loss/total_edit_val"
+eval_only: true
+half: false
+debug: false
+save: false
+verbose: true
+
+val_batch_size: 5
+accumulate_bs: 10
+val_steps: 500
+opt: Adam
+grad_clip: 100.0
+
+# Output
+results_dir: ./results

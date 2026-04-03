@@ -1,0 +1,12 @@
+{
+  "model": "gpt2",
+  "device": "cpu",
+  "crows": {
+    "valid_samples": 5,
+    "prefer_stereo_rate": 0.65
+  },
+  "bbq": {
+    "valid_samples": 5,
+    "accuracy_proxy": 0.16
+  }
+}

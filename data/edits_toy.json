@@ -1,0 +1,73 @@
+[
+  {
+    "src": "The capital of France is",
+    "rephrase": "France's capital city is",
+    "alt": "Lyon",
+    "loc": "The capital of Germany is",
+    "loc_ans": "Berlin"
+  },
+  {
+    "src": "The capital of Japan is",
+    "rephrase": "Japan's capital city is",
+    "alt": "Osaka",
+    "loc": "The capital of China is",
+    "loc_ans": "Beijing"
+  },
+  {
+    "src": "The capital of Italy is",
+    "rephrase": "Italy's capital city is",
+    "alt": "Milan",
+    "loc": "The capital of Spain is",
+    "loc_ans": "Madrid"
+  },
+  {
+    "src": "The author of Harry Potter is",
+    "rephrase": "Harry Potter was written by",
+    "alt": "Stephen King",
+    "loc": "The author of The Hobbit is",
+    "loc_ans": "J. R. R. Tolkien"
+  },
+  {
+    "src": "The largest planet in the solar system is",
+    "rephrase": "In our solar system, the largest planet is",
+    "alt": "Saturn",
+    "loc": "The smallest planet in the solar system is",
+    "loc_ans": "Mercury"
+  },
+  {
+    "src": "The tallest mountain in the world is",
+    "rephrase": "The world's tallest mountain is",
+    "alt": "K2",
+    "loc": "The longest river in the world is",
+    "loc_ans": "Nile"
+  },
+  {
+    "src": "The currency of the United States is",
+    "rephrase": "In the United States, the currency is",
+    "alt": "Euro",
+    "loc": "The currency of Japan is",
+    "loc_ans": "Yen"
+  },
+  {
+    "src": "The chemical symbol for water is",
+    "rephrase": "Water's chemical formula is",
+    "alt": "CO2",
+    "loc": "The chemical symbol for sodium chloride is",
+    "loc_ans": "NaCl"
+  },
+  {
+    "src": "The first man on the moon was",
+    "rephrase": "The first person to walk on the moon was",
+    "alt": "Buzz Aldrin",
+    "loc": "The first woman in space was",
+    "loc_ans": "Valentina Tereshkova"
+  },
+  {
+    "src": "The capital of Canada is",
+    "rephrase": "Canada's capital city is",
+    "alt": "Toronto",
+    "loc": "The capital of Australia is",
+    "loc_ans": "Canberra"
+  }
+]
+
