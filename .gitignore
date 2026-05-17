@@ -1,0 +1,54 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local scratch / generated temporary files
+tmp/
+tmp_ppt_media/
+outputs/
+*_preview/
+tmp_docs_fulltext.txt
+flowchart
+tmp_*.pdf
+
+# External repositories cloned locally
+EasyEdit/
+RippleEdits/
+
+# Generated document working copies
+output/doc/
+*.docx
+!thesis_final_clean.docx
+
+# Local reference PDFs are documented in indexes but not vendored
+paper_initial/*.pdf
+paper_final/*.pdf
+
+# Local thesis-writing notes and literature folders
+/3.16/
+/3.18/
+/3.19/
+/3.20/
+/paper_initial/
+/paper_final/
+/*.md
+!/README.md
+
+# Presentation-building scratch scripts generated during defense prep
+add_opening_story_slide.py
+enrich_222_content.py
+fill_optimized_10page_deck.py
+finalize_7page_deck.py
+make_111_content_version.py
+make_defense_ppt.py
+make_defense_ppt_school_template.py
+make_single_fairness_drift_slide.py
+make_single_metric_definition_slide.py
+rewrite_222_by_speech.py
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+~$*
