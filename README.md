@@ -21,6 +21,9 @@ The main analysis uses GPT-2, CrowS-Pairs, BBQ, and a bias-stress edit set to me
 - `results/`: experiment outputs, drift metrics, method summaries, and thesis figures
 - `mechanism_probe_outputs/`: supplementary probe outputs for parameter update norms and output-distribution changes
 - `thesis_final_clean.docx`: final thesis document snapshot
+- `requirements.txt`: Python dependencies for local reproduction
+- `REPRODUCE.md`: step-by-step reproduction commands
+- `EXTERNAL_DEPENDENCIES.md`: EasyEdit setup and compatibility notes
 
 ## Key Metrics
 
@@ -34,3 +37,5 @@ The main analysis uses GPT-2, CrowS-Pairs, BBQ, and a bias-stress edit set to me
 Large local runtime folders, writing notes, temporary presentation/document assets, cached Python files, reference PDFs, and local external code checkouts are intentionally ignored.
 
 This repository does not vendor the full EasyEdit or RippleEdits source trees. To rerun editing experiments, install or clone EasyEdit separately, then point the notebooks/scripts to that local EasyEdit checkout.
+
+For a clean reproduction workflow, start with `REPRODUCE.md`.

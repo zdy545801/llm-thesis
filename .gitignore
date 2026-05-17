@@ -35,6 +35,8 @@ paper_final/*.pdf
 /paper_final/
 /*.md
 !/README.md
+!/REPRODUCE.md
+!/EXTERNAL_DEPENDENCIES.md
 
 # Presentation-building scratch scripts generated during defense prep
 add_opening_story_slide.py
