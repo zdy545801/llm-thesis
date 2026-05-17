@@ -1,0 +1,19 @@
+[
+  {
+    "round": 8,
+    "edited_items": 96,
+    "global_update_norm": 8.667780643465244,
+    "num_changed_tensors": 2,
+    "rewrite_mean": 0.4947916666666667,
+    "top_changed_tensors": [
+      {
+        "name": "transformer.h.0.mlp.c_proj.weight",
+        "delta_norm": 8.666275024414062
+      },
+      {
+        "name": "transformer.h.0.mlp.c_proj.bias",
+        "delta_norm": 0.16155025362968445
+      }
+    ]
+  }
+]

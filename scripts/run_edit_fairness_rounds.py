@@ -12,6 +12,7 @@ from run_fairness_eval import eval_bbq, eval_crows, read_jsonl
 def load_hparams_class(alg_name: str):
     # Lazy import to avoid requiring EasyEdit for unrelated scripts.
     from easyeditor import (  # type: ignore
+        FTHyperParams,
         GraceHyperParams,
         MEMITHyperParams,
         MENDHyperParams,
@@ -24,6 +25,7 @@ def load_hparams_class(alg_name: str):
         "MEMIT": MEMITHyperParams,
         "ROME": ROMEHyperParams,
         "MEND": MENDHyperParams,
+        "FT": FTHyperParams,
         "GRACE": GraceHyperParams,
     }
     if alg_name not in mapping:

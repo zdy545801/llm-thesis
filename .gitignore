@@ -1,0 +1,24 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local scratch / generated temporary files
+tmp/
+tmp_ppt_media/
+outputs/
+*_preview/
+tmp_docs_fulltext.txt
+flowchart
+
+# Generated document working copies
+output/doc/
+*.docx
+!thesis_final_clean.docx
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+~$*
+

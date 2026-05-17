@@ -1,4 +1,4 @@
-# 论文文档索引（方向B）
+﻿# 论文文档索引（方向B）
 
 ## 核心写作入口
 - `paper_final/chapter_results_analysis_draft.md`
@@ -11,8 +11,9 @@
 - `results/FT/README.md`
 - `results/MEMIT/README.md`
 - `results/ROME/README.md`
+- `results/method_run_stats.md`
 
-## 当前状态（2026-03-25）
-- 方法：FT / MEMIT / ROME 全部跑通
-- 重复：FT-R2、MEMIT-R2、ROME-R2
-- 稳健性：MEMIT-R3（shuffle）完成
+## 当前状态（2026-04-04）
+- Sample：FT / MEMIT / ROME 全部跑通，含重复与扰动实验
+- Full：FT 与 ROME 已完成（e120）；MEMIT-full 进行中
+- 统计：`method_run_stats` 已重算并纳入 full 结果
